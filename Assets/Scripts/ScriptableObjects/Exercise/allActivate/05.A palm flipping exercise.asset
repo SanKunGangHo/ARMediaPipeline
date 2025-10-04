@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 05.A palm flipping exercise
+  m_EditorClassIdentifier: 
+  Title: Palm-up exercise
+  Type:
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: ccb8d27acf3ba5643844661fc340a953, type: 3}
+  - {fileID: 21300000, guid: 1b2d482b7046e784ebda1a0725e5ef0b, type: 3}
+  Type_string: Pain Relief
+  Character: {fileID: 21300000, guid: b4464e7d2816d6949acaba114a438d30, type: 3}
+  warningCharacter: {fileID: 21300000, guid: 6d8f933aa317b174095c0947a5f0ba4b, type: 3}
+  Char_mini: {fileID: 21300000, guid: 7e848e8be721963499aa5cbcf5cc2620, type: 3}
+  warningChar_mini: {fileID: 0}
+  steps:
+  - Extend arms forward with palms up
+  - Raise your shoulders
+  - Rotate the palms backward
+  - Rotate the palms upward
+  - Return to the original position
+  isLeftDisable: 0
+  LSAngles:
+  - 90
+  - 90
+  - 95
+  - 95
+  - 24
+  LEAngles:
+  - 167
+  - 164
+  - 168
+  - 169
+  - 164
+  isRightDisable: 0
+  RSAngles:
+  - 90
+  - 90
+  - 95
+  - 95
+  - 24
+  REAngles:
+  - 167
+  - 164
+  - 168
+  - 169
+  - 168
+  VideoClips:
+  - {fileID: 32900000, guid: 76dbd0dc44dc9b746bd1bab1a2be1780, type: 3}
+  - {fileID: 32900000, guid: 49dc37e35b3892b4c9a40ed5d6a1d63f, type: 3}
+  - {fileID: 32900000, guid: 704aff543026c6a4cb30686b5a3490f7, type: 3}
+  - {fileID: 32900000, guid: 27b06552b0216a643aa10970f413b379, type: 3}
+  - {fileID: 32900000, guid: e84faafc004381244a32bda89e707bbe, type: 3}
+  isPausable: 1
+  set: 5
+  time: 5
+  isReversible: 0
+  isClear: 0
+  isRepeatable: 0
+  repeatBefore: 0
+  repeatAfter: 4

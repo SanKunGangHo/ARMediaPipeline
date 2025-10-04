@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 02.Latissimus dorsi stretch
+  m_EditorClassIdentifier: 
+  Title: Latissimus dorsi stretch
+  Type:
+  - {fileID: 21300000, guid: 2f85c152bd5279847ad35d75d2689bfa, type: 3}
+  - {fileID: 21300000, guid: 06210459f756ef04f9cdde94d21f5a99, type: 3}
+  - {fileID: 21300000, guid: 7dc24024f2aa7404180a39f716b50cc7, type: 3}
+  - {fileID: 21300000, guid: 7642461f219a22b47a8eee18a053e0e1, type: 3}
+  Type_string: Stretching
+  Character: {fileID: 21300000, guid: 2a58a6a59f8ae424bbb6bf3784e27f7c, type: 3}
+  steps:
+  - Raise the arms upward
+  - Hold one arm above the head
+  - Bend to the side
+  - Return from the bend
+  - Return to the original position
+  isLeftDisable: 0
+  LSAngles:
+  - 170
+  - 170
+  - 150
+  - 170
+  - 20
+  LEAngles:
+  - 160
+  - 160
+  - 160
+  - 160
+  - 160
+  isRightDisable: 0
+  RSAngles:
+  - 20
+  - 160
+  - 150
+  - 160
+  - 20
+  REAngles:
+  - 170
+  - 100
+  - 120
+  - 100
+  - 160
+  VideoClips:
+  - {fileID: 32900000, guid: 256cc717107c755498bab384c4e0df6f, type: 3}
+  - {fileID: 32900000, guid: e9987ab9faf27e94ebae18d15d7a7306, type: 3}
+  - {fileID: 32900000, guid: 13201a86dc10ea24b9c651e990d4177a, type: 3}
+  - {fileID: 32900000, guid: 50b7d32bd15f9e94aacee0598d683bb0, type: 3}
+  - {fileID: 32900000, guid: 8743624f75ac6764da1eb3329e277994, type: 3}
+  isPausable: 1
+  set: 2
+  time: 4
+  isReversible: 1
+  isClear: 1
+  isRepeatable: 1
+  repeatBefore: 2
+  repeatAfter: 2

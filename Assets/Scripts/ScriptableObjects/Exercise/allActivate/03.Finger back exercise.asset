@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 03.Finger back exercise
+  m_EditorClassIdentifier: 
+  Title: Finger back exercise
+  Type:
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: ccb8d27acf3ba5643844661fc340a953, type: 3}
+  - {fileID: 21300000, guid: 1b2d482b7046e784ebda1a0725e5ef0b, type: 3}
+  Type_string: Stretching
+  Character: {fileID: 21300000, guid: f7ca977da5a7cb541956e057861ccef9, type: 3}
+  warningCharacter: {fileID: 21300000, guid: 3dd7ea267800921498cdcdf9c0671e52, type: 3}
+  Char_mini: {fileID: 21300000, guid: 30dd9675049acea46b95b70ae56ba2a5, type: 3}
+  warningChar_mini: {fileID: 0}
+  steps:
+  - Clasp hands behind the back
+  - Pull the arms backward
+  - Return to the first position
+  - Return to the original position
+  isLeftDisable: 0
+  LSAngles:
+  - 25
+  - 40
+  - 25
+  - 10
+  LEAngles:
+  - 150
+  - 150
+  - 150
+  - 160
+  isRightDisable: 1
+  RSAngles:
+  - 25
+  - 40
+  - 25
+  - 10
+  REAngles:
+  - 160
+  - 160
+  - 160
+  - 160
+  VideoClips:
+  - {fileID: 32900000, guid: 5fbd7eafef1abc749bc8684d3a8d80ad, type: 3}
+  - {fileID: 32900000, guid: 93ea47a1da058fe4a836f448fdd9183e, type: 3}
+  - {fileID: 32900000, guid: 1cddafe8163469d4280b8f6dc2e31475, type: 3}
+  - {fileID: 32900000, guid: f779c2d78425a804a8d94d7537f0e2c3, type: 3}
+  isPausable: 1
+  set: 3
+  time: 5
+  isReversible: 0
+  isClear: 0
+  isRepeatable: 0
+  repeatBefore: 1
+  repeatAfter: 1

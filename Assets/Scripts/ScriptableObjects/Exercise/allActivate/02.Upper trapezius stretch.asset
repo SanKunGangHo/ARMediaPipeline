@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 02.Upper trapezius stretch
+  m_EditorClassIdentifier: 
+  Title: Upper trapezius stretch
+  Type:
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: ccb8d27acf3ba5643844661fc340a953, type: 3}
+  - {fileID: 21300000, guid: 1b2d482b7046e784ebda1a0725e5ef0b, type: 3}
+  Type_string: Stretching
+  Character: {fileID: 21300000, guid: ab22729db3749a54a8cdb6f9dc510b48, type: 3}
+  warningCharacter: {fileID: 21300000, guid: c1e985571bdd381419ec0e735222e17d, type: 3}
+  Char_mini: {fileID: 21300000, guid: 9419e0a3d620ed34bb7136dbb873ad59, type: 3}
+  warningChar_mini: {fileID: 0}
+  steps:
+  - Extend the arm forward
+  - Pull the shoulder forward
+  - Pull the shoulder upward
+  - Pull the shoulder backward
+  - Return to the first position
+  - Return to the original position
+  isLeftDisable: 0
+  LSAngles:
+  - 70
+  - 80
+  - 80
+  - 70
+  - 80
+  - 20
+  LEAngles:
+  - 160
+  - 160
+  - 160
+  - 160
+  - 160
+  - 160
+  isRightDisable: 1
+  RSAngles:
+  - 70
+  - 80
+  - 75
+  - 60
+  - 80
+  - 20
+  REAngles:
+  - 150
+  - 160
+  - 150
+  - 150
+  - 160
+  - 160
+  VideoClips:
+  - {fileID: 32900000, guid: b33648220b44c9b4aa06cde921740dd4, type: 3}
+  - {fileID: 32900000, guid: ae1aa490d99ddc74282d2ff05bfb597d, type: 3}
+  - {fileID: 32900000, guid: d2a352eef325cb548a1653c58beed5d9, type: 3}
+  - {fileID: 32900000, guid: bbf4433537236b044ae1566aeb3b9e75, type: 3}
+  - {fileID: 32900000, guid: ac8370e3f7c81fc4299bf2d46a40d6d4, type: 3}
+  - {fileID: 32900000, guid: e2921821efc2a76478710659ebef849c, type: 3}
+  isPausable: 1
+  set: 5
+  time: 5
+  isReversible: 1
+  isClear: 0
+  isRepeatable: 0
+  repeatBefore: 0
+  repeatAfter: 0

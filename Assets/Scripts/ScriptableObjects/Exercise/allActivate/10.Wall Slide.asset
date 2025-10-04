@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 10.Wall Slide
+  m_EditorClassIdentifier: 
+  Title: Wall slide exercise
+  Type:
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: ccb8d27acf3ba5643844661fc340a953, type: 3}
+  - {fileID: 21300000, guid: 1b2d482b7046e784ebda1a0725e5ef0b, type: 3}
+  Type_string: Strengthening
+  Character: {fileID: 21300000, guid: d6b9db1b114a8d74db2304c216076b81, type: 3}
+  warningCharacter: {fileID: 21300000, guid: 5a4e72e64c8d5e64e849b7669335327d, type: 3}
+  Char_mini: {fileID: 21300000, guid: 8e3fe1d2bc8ddba46b221e10d4313a50, type: 3}
+  warningChar_mini: {fileID: 0}
+  steps:
+  - Clench fists and raise the arms
+  - Lower the elbows down
+  - Lift the elbows up
+  - Lower the elbows down
+  - Lower yout arms
+  isLeftDisable: 0
+  LSAngles:
+  - 63
+  - 59
+  - 105
+  - 63
+  - 0
+  LEAngles:
+  - 61
+  - 55
+  - 117
+  - 61
+  - 160
+  isRightDisable: 1
+  RSAngles:
+  - 22
+  - 18
+  - 30
+  - 22
+  - 10
+  REAngles:
+  - 150
+  - 114
+  - 175
+  - 150
+  - 155
+  VideoClips:
+  - {fileID: 32900000, guid: 8318bf95e9b72e144a900f3636d0aa72, type: 3}
+  - {fileID: 32900000, guid: 0eed686cf0021b541b01492722b36de7, type: 3}
+  - {fileID: 32900000, guid: 2764f90e46ff3e54787ee26a0bc0524e, type: 3}
+  - {fileID: 32900000, guid: 0525f386d486f5b46b0e12f578c2a657, type: 3}
+  - {fileID: 32900000, guid: 22a04d188e3e8dc488970694e544b223, type: 3}
+  isPausable: 1
+  set: 5
+  time: 5
+  isReversible: 0
+  isClear: 0
+  isRepeatable: 0
+  repeatBefore: 0
+  repeatAfter: 0

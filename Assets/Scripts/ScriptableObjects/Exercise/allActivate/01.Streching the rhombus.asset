@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 01.Streching the rhombus
+  m_EditorClassIdentifier: 
+  Title: Diamond stretch
+  Type:
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: ccb8d27acf3ba5643844661fc340a953, type: 3}
+  - {fileID: 21300000, guid: 1b2d482b7046e784ebda1a0725e5ef0b, type: 3}
+  Type_string: Stretching
+  Character: {fileID: 21300000, guid: a499a22d3766373448b2efb1a5b99082, type: 3}
+  warningCharacter: {fileID: 21300000, guid: a499a22d3766373448b2efb1a5b99082, type: 3}
+  Char_mini: {fileID: 21300000, guid: c8d7d9f525f572842ae3300e256261d2, type: 3}
+  warningChar_mini: {fileID: 0}
+  steps:
+  - Extent the arm forward
+  - Extend the arm to the side
+  - Grab the sholder
+  - Pull the shoulder gently
+  - Return the arm to original position
+  isLeftDisable: 1
+  LSAngles:
+  - 20
+  - 20
+  - 20
+  - 15
+  - 30
+  LEAngles:
+  - 165
+  - 160
+  - 40
+  - 30
+  - 160
+  isRightDisable: 0
+  RSAngles:
+  - 20
+  - 50
+  - 50
+  - 50
+  - 10
+  REAngles:
+  - 20
+  - 160
+  - 150
+  - 150
+  - 160
+  VideoClips:
+  - {fileID: 32900000, guid: 632aa12fed20a9949b085e7126b5ae63, type: 3}
+  - {fileID: 32900000, guid: cc5aacc52b31c514ab28fcc7a918939b, type: 3}
+  - {fileID: 32900000, guid: 07f93e71c7da0a54289d436fbc52a21b, type: 3}
+  - {fileID: 32900000, guid: bab479766704afd49868b4080fc7556a, type: 3}
+  - {fileID: 32900000, guid: 3ae4b822c05df174e95b8ee9db0ba68c, type: 3}
+  isPausable: 1
+  set: 0
+  time: 5
+  isReversible: 1
+  isClear: 0
+  isRepeatable: 0
+  repeatBefore: 3
+  repeatAfter: 3

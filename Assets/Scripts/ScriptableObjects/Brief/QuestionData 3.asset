@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569edbaebcbf9694cbe76b9d98e2a415, type: 3}
+  m_Name: QuestionData 3
+  m_EditorClassIdentifier: 
+  SurveyTitle: Brief Survey
+  QuestNum: 03
+  QuestTitle_EN: What is the intensity of your pain?
+  QuestTitle_VT: 
+  QuestTitle_KR: "\uD1B5\uC99D\uC758 \uC790\uADF9 \uAC15\uB3C4 (intersity)\uAC00
+    \uC5B4\uB5A0\uD569\uB2C8\uAE4C?"
+  QuestAnswers_EN: []
+  QuestAnswers_VT: []
+  QuestAnswers_KR: []
+  Question_Filter: []
+  Question_Filter_Point: 
+  isComport: 0
+  preQuestion: {fileID: 11400000, guid: 966af76bd4676fe4db30f2434769482d, type: 2}
+  nextQuestion: {fileID: 11400000, guid: eca1c1d8a8c9b494a85ebfa0c6e9f3ea, type: 2}

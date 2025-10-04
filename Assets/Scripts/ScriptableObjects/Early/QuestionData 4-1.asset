@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569edbaebcbf9694cbe76b9d98e2a415, type: 3}
+  m_Name: QuestionData 4-1
+  m_EditorClassIdentifier: 
+  SurveyTitle: On-Boarding Survey
+  QuestNum: 04-1
+  QuestTitle_EN: 'If there is a restriction, in which direction is it most severe? '
+  QuestTitle_VT: "N\u1EBFu c\xF3 h\u1EA1n ch\u1EBF , b\u1EA1n c\u1EA3m th\u1EA5y
+    n\xF3 n\u1EB7ng nh\u1EA5t \u1EDF h\u01B0\u1EDBng n\xE0o?"
+  QuestTitle_KR: "\uC81C\uD55C\uC774 \uC788\uB2E4\uBA74 \uC5B4\uB290 \uBC29\uD5A5\uC5D0\uC11C
+    \uAC00\uC7A5 \uC2EC\uD569\uB2C8\uAE4C?"
+  QuestAnswers_EN:
+  - 'Feels discomfort using the shoulder only at certain angles   '
+  - 'Feels discomfort using the shoulder in all directions overall '
+  QuestAnswers_VT:
+  - "C\u1EA3m th\u1EA5y kh\xF3 ch\u1ECBu khi d\xF9ng vai \u1EDF m\u1ED9t s\u1ED1
+    g\xF3c \u0111\u1ED9 nh\u1EA5t \u0111\u1ECBnh."
+  - "C\u1EA3m th\u1EA5y kh\xF3 ch\u1ECBu khi s\u1EED d\u1EE5ng vai \u1EDF t\u1EA5t
+    c\u1EA3 c\xE1c h\u01B0\u1EDBng."
+  QuestAnswers_KR:
+  - "\uD2B9\uC815 \uAC01\uB3C4\uC5D0\uC11C\uB9CC \uC5B4\uAE68 \uC0AC\uC6A9\uC5D0
+    \uBD88\uD3B8\uAC10\uC744 \uB290\uB08C"
+  - "\uBAA8\uB4E0 \uBC29\uD5A5\uC5D0\uC11C \uC804\uBC18\uC801\uC73C\uB85C \uC0AC\uC6A9\uC5D0
+    \uBD88\uD3B8\uAC10\uC744 \uB290\uB08C"
+  Question_Filter:
+  - "\uCDA9\uB3CC\uC99D\uD6C4\uAD70"
+  - "\uC720\uCC29\uC131\uAD00\uC808"
+  Question_Filter_Point: 0100000001000000
+  isComport: 1
+  preQuestion: {fileID: 11400000, guid: 100862b4745e46f4e9a6567294df781e, type: 2}
+  nextQuestion: {fileID: 11400000, guid: 7d814cd2481e40648bb9694817927272, type: 2}

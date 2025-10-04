@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569edbaebcbf9694cbe76b9d98e2a415, type: 3}
+  m_Name: QuestionData 5
+  m_EditorClassIdentifier: 
+  SurveyTitle: On-Boarding Survey
+  QuestNum: 05
+  QuestTitle_EN: 'Have you recently overused or injured your shoulder? '
+  QuestTitle_VT: 
+  QuestTitle_KR: "\uCD5C\uADFC\uC5D0 \uC5B4\uAE68\uB97C \uB9CE\uC774 \uC0AC\uC6A9\uD558\uAC70\uB098
+    \uBD80\uC0C1\uB2F9\uD55C \uC801\uC774 \uC788\uC2B5\uB2C8\uAE4C?"
+  QuestAnswers_EN:
+  - 'The pain gradually started without any specific cause '
+  - 'Recently used the shoulder a lot or had an injury '
+  - 'Not applicable '
+  - Other
+  QuestAnswers_VT: []
+  QuestAnswers_KR:
+  - "\uD2B9\uBCC4\uD55C \uC6D0\uC778 \uC5C6\uC774 \uC11C\uC11C\uD788 \uD1B5\uC99D\uC774
+    \uC2DC\uC791\uB428"
+  - "\uCD5C\uADFC\uC5D0 \uC5B4\uAE68\uB97C \uB9CE\uC774 \uC0AC\uC6A9\uD558\uAC70\uB098
+    \uBD80\uC0C1\uB2F9\uD55C \uC801\uC774 \uC788\uC74C"
+  - "\uD574\uB2F9\uC0AC\uD56D \uC5C6\uC74C"
+  - "\uAE30\uD0C0"
+  Question_Filter:
+  - "\uC720\uCC29\uC131\uAD00\uC808"
+  - "\uCDA9\uB3CC\uC99D\uD6C4\uAD70"
+  - "\uCDA9\uB3CC\uC99D\uD6C4\uAD70 \uC720\uCC29\uC131\uAD00\uC808"
+  - "\uC8FC\uC758"
+  Question_Filter_Point: 01000000010000000000000001000000
+  isComport: 0
+  preQuestion: {fileID: 11400000, guid: 100862b4745e46f4e9a6567294df781e, type: 2}
+  nextQuestion: {fileID: 11400000, guid: d54cb39587b79424d9ad6b53c1b655ad, type: 2}

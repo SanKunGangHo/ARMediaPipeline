@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 07.Angel wings exercise
+  m_EditorClassIdentifier: 
+  Title: Angel wings exercise
+  Type:
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: 076747b9a8b65ef4fb98b8035afa4c52, type: 3}
+  - {fileID: 21300000, guid: ccb8d27acf3ba5643844661fc340a953, type: 3}
+  - {fileID: 21300000, guid: 1b2d482b7046e784ebda1a0725e5ef0b, type: 3}
+  Type_string: Stabilization
+  Character: {fileID: 21300000, guid: eeeee68c86598a740af83f476241df96, type: 3}
+  warningCharacter: {fileID: 21300000, guid: 9bfd1111359204347a4089e53e335753, type: 3}
+  Char_mini: {fileID: 21300000, guid: 18fbcfdf55069e041a8fffdf7d99c697, type: 3}
+  warningChar_mini: {fileID: 0}
+  steps:
+  - Raise arms out to the sides
+  - Lift both arms high
+  - Lower arms out to the sides
+  - Return to the original position
+  isLeftDisable: 0
+  LSAngles:
+  - 50
+  - 170
+  - 50
+  - 20
+  LEAngles:
+  - 65
+  - 160
+  - 65
+  - 160
+  isRightDisable: 0
+  RSAngles:
+  - 50
+  - 170
+  - 50
+  - 20
+  REAngles:
+  - 65
+  - 160
+  - 65
+  - 160
+  VideoClips:
+  - {fileID: 32900000, guid: d846702b65a56f14bb6f5d8f2f14a199, type: 3}
+  - {fileID: 32900000, guid: 0127173abac3ee24e8e954d16deb14a3, type: 3}
+  - {fileID: 32900000, guid: 0889315f59855994a80d4870bffc63a3, type: 3}
+  - {fileID: 32900000, guid: a0864635a06c74a4fb89a02b6a99117a, type: 3}
+  isPausable: 1
+  set: 5
+  time: 5
+  isReversible: 0
+  isClear: 0
+  isRepeatable: 0
+  repeatBefore: 1
+  repeatAfter: 1

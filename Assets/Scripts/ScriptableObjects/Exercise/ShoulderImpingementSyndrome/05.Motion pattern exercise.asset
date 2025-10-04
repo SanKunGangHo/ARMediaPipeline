@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 05.Motion pattern exercise
+  m_EditorClassIdentifier: 
+  Title: Movement pattern exercise
+  Type:
+  - {fileID: 21300000, guid: 724d90e142b46404b9b81632081b1dc5, type: 3}
+  - {fileID: 21300000, guid: 113b11bc3ac409144a3c5fedbd45c4e5, type: 3}
+  - {fileID: 21300000, guid: ced305f53ee528d48812594ca9fa0379, type: 3}
+  - {fileID: 21300000, guid: 60742bbda5df0b64e942630ddac28092, type: 3}
+  Type_string: ROM
+  Character: {fileID: 21300000, guid: bf56176a24c3d7d40b227b0891b78683, type: 3}
+  steps:
+  - Extend the arms forward
+  - Raise the arms upward
+  - Extend the arms forward
+  - Raise the arms upward
+  isLeftDisable: 0
+  LSAngles:
+  - 165
+  - 10
+  - 175
+  - 30
+  LEAngles:
+  - 175
+  - 160
+  - 165
+  - 165
+  isRightDisable: 1
+  RSAngles:
+  - 15
+  - 10
+  - 10
+  - 30
+  REAngles:
+  - 175
+  - 150
+  - 170
+  - 165
+  VideoClips:
+  - {fileID: 32900000, guid: b0010dddc6be52d40ab1e56d7ae8f5da, type: 3}
+  - {fileID: 32900000, guid: 554507b3cc953d74e9e4f5bb51ea1f28, type: 3}
+  - {fileID: 32900000, guid: 3d7aad7bb518b284fb6b75669a907bc4, type: 3}
+  - {fileID: 32900000, guid: dc280c45921c5914db5c8f324e2f26b2, type: 3}
+  isPausable: 1
+  set: 5
+  time: 4
+  isReversible: 1
+  isClear: 0
+  isRepeatable: 1
+  repeatBefore: 0
+  repeatAfter: 3

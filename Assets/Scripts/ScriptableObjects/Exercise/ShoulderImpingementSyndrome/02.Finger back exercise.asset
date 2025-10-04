@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae588e9d0493848bb5437c320a4d6e, type: 3}
+  m_Name: 02.Finger back exercise
+  m_EditorClassIdentifier: 
+  Title: Finger back exercise
+  Type:
+  - {fileID: 21300000, guid: 2f85c152bd5279847ad35d75d2689bfa, type: 3}
+  - {fileID: 21300000, guid: 06210459f756ef04f9cdde94d21f5a99, type: 3}
+  - {fileID: 21300000, guid: 7dc24024f2aa7404180a39f716b50cc7, type: 3}
+  - {fileID: 21300000, guid: 7642461f219a22b47a8eee18a053e0e1, type: 3}
+  Type_string: Stretching
+  Character: {fileID: 21300000, guid: b724e5c59456ccd418c3c5401085ab37, type: 3}
+  steps:
+  - Clasp hands behind the back
+  - Pull the arms backward
+  - Return to the first position
+  - Return to the original position
+  isLeftDisable: 0
+  LSAngles:
+  - 25
+  - 40
+  - 25
+  - 10
+  LEAngles:
+  - 150
+  - 150
+  - 150
+  - 160
+  isRightDisable: 1
+  RSAngles:
+  - 25
+  - 40
+  - 25
+  - 10
+  REAngles:
+  - 160
+  - 160
+  - 160
+  - 160
+  VideoClips:
+  - {fileID: 32900000, guid: 5fbd7eafef1abc749bc8684d3a8d80ad, type: 3}
+  - {fileID: 32900000, guid: 93ea47a1da058fe4a836f448fdd9183e, type: 3}
+  - {fileID: 32900000, guid: 1cddafe8163469d4280b8f6dc2e31475, type: 3}
+  - {fileID: 32900000, guid: f779c2d78425a804a8d94d7537f0e2c3, type: 3}
+  isPausable: 1
+  set: 3
+  time: 4
+  isReversible: 0
+  isClear: 0
+  isRepeatable: 1
+  repeatBefore: 1
+  repeatAfter: 1

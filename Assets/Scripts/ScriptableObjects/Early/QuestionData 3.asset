@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569edbaebcbf9694cbe76b9d98e2a415, type: 3}
+  m_Name: QuestionData 3
+  m_EditorClassIdentifier: 
+  SurveyTitle: On-Boarding Survey
+  QuestNum: 03
+  QuestTitle_EN: Does the pain worsen at night or interfere with your sleep?
+  QuestTitle_VT: "C\u01A1n \u0111au c\xF3 tr\u1EA7m tr\u1ECDng h\u01A1n v\xE0o ban
+    \u0111\xEAm ho\u1EB7c c\u1EA3n tr\u1EDF gi\u1EA5c ng\u1EE7 c\u1EE7a b\u1EA1n
+    kh\xF4ng?"
+  QuestTitle_KR: "\uC57C\uAC04\uC5D0 \uD1B5\uC99D\uC774 \uC2EC\uD574\uC9C0\uAC70\uB098
+    \uC7A0\uC744 \uBC29\uD574\uD569\uB2C8\uAE4C?"
+  QuestAnswers_EN:
+  - When I sleep on my side
+  - No matter what position I lie in, the pain is severe and it disrupts my sleep
+  - Not applicable
+  - Other
+  QuestAnswers_VT:
+  - "\u0110au n\u1EB7ng khi n\u1EB1m nghi\xEAng."
+  - "D\xF9 n\u1EB1m t\u01B0 th\u1EBF n\xE0o c\u0169ng \u0111au n\u1EB7ng v\xE0 \u1EA3nh
+    h\u01B0\u1EDFng gi\u1EA5c ng\u1EE7."
+  - "Kh\xF4ng c\xF3"
+  - "Kh\xE1c:"
+  QuestAnswers_KR:
+  - "\uC606\uC73C\uB85C \uB204\uC6CC\uC798 \uB54C \uD1B5\uC99D\uC774 \uC2EC\uD574\uC9D0"
+  - "\uC5B4\uB5A0\uD55C \uC790\uC138\uB85C \uB204\uC6CC\uB3C4 \uD1B5\uC99D\uC774
+    \uC2EC\uD574\uC11C \uC7A0\uC744 \uBC29\uD574\uD568"
+  - "\uD574\uB2F9\uC0AC\uD56D \uC5C6\uC74C"
+  - "\uAE30\uD0C0"
+  Question_Filter:
+  - "\uCDA9\uB3CC\uC99D\uD6C4\uAD70"
+  - "\uC720\uCC29\uC131\uAD00\uC808"
+  - "\uCDA9\uB3CC\uC99D\uD6C4\uAD70 \uC720\uCC29\uC131\uAD00\uC808"
+  - "\uC8FC\uC758"
+  Question_Filter_Point: 01000000010000000000000001000000
+  isComport: 0
+  preQuestion: {fileID: 11400000, guid: bd0547d7af924d349a2d0898ac11bde9, type: 2}
+  nextQuestion: {fileID: 11400000, guid: 100862b4745e46f4e9a6567294df781e, type: 2}

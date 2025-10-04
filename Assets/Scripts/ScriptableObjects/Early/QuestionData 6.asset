@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569edbaebcbf9694cbe76b9d98e2a415, type: 3}
+  m_Name: QuestionData 6
+  m_EditorClassIdentifier: 
+  SurveyTitle: On-Boarding Survey
+  QuestNum: 06
+  QuestTitle_EN: 'Does the pain persist even when not using your shoulder? '
+  QuestTitle_VT: 
+  QuestTitle_KR: "\uC5B4\uAE68\uB97C \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uC744 \uB54C\uB3C4
+    \uD1B5\uC99D\uC774 \uC9C0\uC18D\uB429\uB2C8\uAE4C?"
+  QuestAnswers_EN:
+  - 'When not using the shoulder, the pain decreases '
+  - 'When not using the shoulder, the pain persists '
+  - 'When not using the shoulder, there is no change '
+  - Other
+  QuestAnswers_VT: []
+  QuestAnswers_KR:
+  - "\uC5B4\uAE68\uB97C \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uC744 \uB54C, \uD1B5\uC99D\uC774
+    \uACBD\uAC10\uB428"
+  - "\uC5B4\uAE68\uB97C \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uC744 \uB54C, \uD1B5\uC99D\uC774
+    \uC9C0\uC18D\uB428"
+  - "\uC5B4\uAE68\uB97C \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uC744 \uB54C, \uBCC0\uD654
+    \uC5C6\uC74C"
+  - "\uAE30\uD0C0"
+  Question_Filter:
+  - "\uCDA9\uB3CC\uC99D\uD6C4\uAD70"
+  - "\uC720\uCC29\uC131\uAD00\uC808"
+  - "\uCDA9\uB3CC\uC99D\uD6C4\uAD70 \uC720\uCC29\uC131\uAD00\uC808"
+  - "\uC8FC\uC758"
+  Question_Filter_Point: 01000000010000000000000001000000
+  isComport: 0
+  preQuestion: {fileID: 11400000, guid: 7d814cd2481e40648bb9694817927272, type: 2}
+  nextQuestion: {fileID: 11400000, guid: 570e9d74f32474844a995e8c173cf276, type: 2}
